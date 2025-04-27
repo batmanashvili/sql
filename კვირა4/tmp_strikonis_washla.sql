@@ -1,0 +1,1 @@
+DELETE  TOP (2) FROM ##Temp
