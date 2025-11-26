@@ -1,0 +1,183 @@
+პრაქტიკული  სამუშაო  
+
+თემა: წარმოდგენები   
+
+ 
+
+დავალება (ნიმუში) 
+
+ 
+
+1. შექმენით წარმოდგენა, რომელშიც გამოჩნდება Personali ცხრილის gvari სვეტი და Shemkveti ცხრილის gvari სვეტი. Personali ცხრილი არის მთავარი, Shemkveti ცხრილი - კი დამოკიდებული. გამოვიტანოთ ინფორმაცია იმ თანამშრომლების შესახებ, რომელთა ასაკი 40-ზე მეტია. 
+
+USE Shekveta; 
+
+GO 
+
+CREATE VIEW Gvari_40  
+
+AS  
+
+SELECT dbo.Personali.gvari AS [თანამშრომლის გვარი],  
+
+dbo.Shemkveti.gvari AS [შემკვეთის გვარი]  
+
+FROM dbo.Personali INNER JOIN dbo.Shemkveti  
+
+ON dbo.Personali.PersonaliID = dbo.Shemkveti.PersonaliID  
+
+WHERE dbo.Personali.asaki > 40;  
+
+-- წარმოდგენის გახსნა:  
+
+SELECT * FROM Gvari_40; 
+
+ 
+
+2.  შექმენით წარმოდგენა, რომელშიც გამოჩნდება Xelshekruleba ცხრილის ყველა სვეტი. წარმოდგენაში უნდა გამოჩნდეს ინფორმაცია მევალეების შესახებ.  
+
+CREATE VIEW Xelshekruleba_Vali  
+
+AS  
+
+SELECT * FROM Xelshekruleba  
+
+WHERE vali_l > 0;  
+
+-- წარმოდგენის გახსნა:  
+
+SELECT * FROM Xelshekruleba_Vali;  
+
+ 
+
+3.  შექმენით წარმოდგენა, რომელშიც გამოჩნდება Personali ცხრილის gvari სვეტი და Shemkveti ცხრილის gvari სვეტი. Personali ცხრილი არის მთავარი, Shemkveti ცხრილი - კი დამოკიდებული. გამოიტანეთ ინფორმაცია იმ თანამშრომლების შესახებ, რომელთა სტაჟი 10 წელზე მეტია.  
+
+CREATE VIEW Staji_10  
+
+AS  
+
+SELECT gvari, ganyofileba, qalaqi, asaki, staji  
+
+FROM Personali  
+
+WHERE staji > 10;  
+
+-- წარმოდგენის გახსნა:  
+
+SELECT * FROM Staji_10; 
+
+4. გამოიტანეთ ინფორმაცია იმ თანამშრომლების შესახებ, რომელთა სტაჟი 10 წელზე ნაკლებია.  
+
+CREATE VIEW Staji_11  
+
+AS  
+
+SELECT gvari, ganyofileba, qalaqi, asaki, staji  
+
+FROM dbo.Personali  
+
+WHERE staji < 10;  
+
+-- წარმოდგენის გახსნა:  
+
+SELECT * FROM Staji_11; 
+
+ 
+
+5. გვაინტერესებს მაქსიმალური ვალის მნიშვნელობა თითოეული თანამშრომლისთვის. წარმოდგენის შიგნით გამოიყენეთ ფუნქცია.  
+
+CREATE VIEW View_Function1 
+
+AS  
+
+SELECT PersonaliID, MAX(vali_l) AS [მაქსიმალური ვალი]  
+
+FROM Xelshekruleba  
+
+GROUP BY PersonaliID;  
+
+-- წარმოდგენის გახსნა:  
+
+SELECT * FROM View_Function1; 
+
+ 
+
+6. გამოიტანეთ თანამშრომლის საშუალო ასაკის მნიშვნელობა წარმოდგენის საშუალებით. 
+
+CREATE VIEW View_Asaki  
+
+AS  
+
+SELECT AVG(asaki) AS [საშუალო ასაკი]  
+
+FROM Personali  
+
+GROUP BY PersonaliID;  
+
+-- წარმოდგენის გახსნა:  
+
+SELECT * FROM View_Asaki; 
+
+ 
+
+7. გამოიტანეთ ინფორმაცია იმ თანამშრომლების შესახებ, რომელთა ასაკია 25-დან 45 წლამდე.  
+
+CREATE VIEW View_Asaki1  
+
+AS  
+
+SELECT * FROM Personali  
+
+WHERE asaki BETWEEN 25 AND 45;  
+
+-- წარმოდგენის გახსნა:  
+
+SELECT * FROM View_Asaki1; 
+
+ 
+
+ 
+
+8. გამოიტანეთ თანამშრომლის საშუალო სტაჟის მნიშვნელობა წარმოდგენის საშუალებით.  
+
+ 
+
+CREATE VIEW View_Staji  
+
+AS  
+
+SELECT AVG(staji) AS [საშუალო სტაჟი]  
+
+FROM Personali  
+
+GROUP BY PersonaliID;  
+
+ 
+
+-- წარმოდგენის გახსნა:  
+
+ 
+
+SELECT * FROM View_Staji; 
+
+ 
+
+ 
+
+ 
+
+ 
+
+დამოუკიდებელი სამუშაო 
+
+ 
+
+მოიფიქრეთ რამოდენიმე ამოცანა. 
+
+ 
+
+ 
+
+ 
+
+ 

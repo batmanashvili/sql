@@ -1,0 +1,259 @@
+Beka Batmanashvili
+React Native Developer
+11v M.Chiaureli
+Tbilisi
+(551) 121-165
+bekabatmanashvili1@gmail.com
+
+Employer:
+Making Science
+
+employer URL:
+@https://www.makingscience.com/
+
+wrok period from - to
+2023 - 2023
+
+Project description max 2100 words.
+Developed a cross‑platform P2P payments app enabling instant, bank‑connected transfers between Georgian users. Led planning of payment flows and technology selection; implemented secure authentication, encrypted storage, real‑time notifications, and a robust UX. Tech: React Native, TypeScript, React Navigation, React Query, React Hook Form, Intercom, Firebase.
+
+Responsibilities kax 4000 words
+- Led and contributed to end‑to‑end mobile feature development (requirements, design collaboration, implementation, testing, and release).
+- Designed maintainable app architectures, navigation flows, and module boundaries; created reusable UI components and utilities.
+- Integrated complex payment providers (e.g., Stripe and others), authentication (email/phone, Google/Apple), and secure storage.
+- Implemented data fetching and caching with React Query; managed app state using Redux/Zustand/MobX/Legend State where appropriate.
+- Built robust forms with React Hook Form; added analytics, deep links, push notifications, and in‑app messaging (e.g., Intercom).
+- Ensured offline support and background sync; handled conflict resolution and data consistency for intermittent networks.
+- Optimized rendering performance, animations, bundle size, and startup time; resolved memory and threading issues.
+- Wrote unit/integration tests; participated in code reviews; enforced Eslint/Prettier/Husky quality gates.
+- Collaborated with backend and data teams on API/GraphQL contracts, pagination, error handling, and telemetry.
+- Contributed to CI/CD pipelines and automated test jobs; supported release management and store submissions.
+- Mentored junior developers; documented patterns and best practices; improved developer experience.
+- Worked closely with product/design to refine requirements, prioritize scope, and deliver iterations on time.
+
+client name
+Keepz
+
+client description
+A Georgia‑based P2P payment application enabling instant money transfers between users, integrated with Georgian banks and secure storage. My work included planning the payment flow, selecting technologies, and implementing the core app using React Native, TypeScript, React Navigation, React Query, React Hook Form, Intercom, Firebase, and encrypted storage.
+
+---
+
+Employer:
+Making Science
+
+employer URL:
+@https://www.makingscience.com/
+
+wrok period from - to
+2022 - 2022
+
+Project description max 2100 words.
+A wallet and merchant payment experience supporting discounts, cashback, coin accrual, payment sharing and requests, and discovery of recommended venues. I joined mid‑project to accelerate delivery, fix critical bugs, and add features at high velocity while maintaining code quality and architectural consistency. The app focused on smooth, reliable transactions and a polished user experience.
+
+Responsibilities kax 4000 words
+- Diagnosed and fixed production bugs; stabilized core payment and navigation flows.
+- Delivered new features rapidly while preserving architecture and code style consistency.
+- Implemented data fetching, caching, and optimistic updates using React Query and Redux.
+- Enhanced UX with animations and responsive UI; improved error handling and edge case coverage.
+- Collaborated with QA and product to triage issues and prioritize sprints.
+
+client name
+Ventispay (Wallet App)
+
+client description
+A digital wallet app enabling user‑to‑merchant and user‑to‑user transactions, discount discovery, and rewards. Tech: React Native, Redux, React Query, Axios, React Navigation, TypeScript, Firebase.
+
+---
+
+Employer:
+Making Science
+
+employer URL:
+@https://www.makingscience.com/
+
+wrok period from - to
+2022 - 2022
+
+Project description max 2100 words.
+A cross‑platform discounts and offers platform delivered for iOS, Android, and Web from a unified codebase. I architected the project from scratch, established standards, and reviewed code to ensure quality. I selected key packages and patterns to balance performance, developer velocity, and long‑term maintainability. I also integrated analytics and deep linking while keeping sensitive data secure.
+
+Responsibilities kax 4000 words
+- Set up monorepo/web sharing using React Native Web and Webpack.
+- Established project architecture, folder structure, and reusable component library.
+- Implemented offers discovery, search, and navigation; added animations with Lottie.
+- Integrated Salesforce analytics, deep links, and encrypted storage.
+- Performed code reviews and maintained code quality standards.
+
+client name
+Disfrutones (Discounts & Offers Platform)
+
+client description
+A multi‑platform discounts application for discovering deals and offers. Tech: React Native, React Native Web, Webpack, Lottie, Redux, React Query, Axios, React Navigation. Analytics via Salesforce with secure storage and deep linking.
+
+---
+
+Employer:
+Making Science
+
+employer URL:
+@https://www.makingscience.com/
+
+wrok period from - to
+2022 - 2022
+
+Project description max 2100 words.
+Restaurant chain delivery application for a major Spanish brand covering authentication, ordering, payments, real‑time tracking, allergens, notifications, and order history. I led key areas and supported monthly redesign cycles to continuously refine UX and performance.
+
+Responsibilities kax 4000 words
+- Implemented auth flows, ordering journeys, and payment integrations (incl. Stripe).
+- Added real‑time order tracking, notifications, and allergens filtering.
+- Ensured robust error handling, retries, and graceful empty/loading states.
+- Partnered with design to land frequent redesigns with minimal regressions.
+
+client name
+La Gran Familia Mediterránea (Restaurant Chain App)
+
+client description
+A Spanish restaurant network’s delivery app focused on reliable ordering, payments, and real‑time tracking. Tech: React Native, Expo, Redux, React Query, TypeScript, Stripe, Axios, Google Auth, Firebase.
+
+---
+
+Employer:
+Making Science
+
+employer URL:
+@https://www.makingscience.com/
+
+wrok period from - to
+2021 - 2021
+
+Project description max 2100 words.
+A large‑scale Italian e‑commerce mobile app with multi‑provider auth (Google/Apple), rich animations, extensive screens, chat, and multiple payment methods. I joined late in the lifecycle to accelerate onboarding, implement features, resolve performance issues, and ensure consistency in a non‑TypeScript codebase.
+
+Responsibilities kax 4000 words
+- Implemented features and fixed performance bottlenecks across complex flows.
+- Added payments and improved checkout reliability and UX.
+- Collaborated across a large team to stabilize releases and polish UI.
+
+client name
+Yeppon (E‑commerce App)
+
+client description
+A comprehensive e‑commerce application for the Italian market with advanced features and multiple payment providers. Tech: React Native, Redux, JavaScript, Axios, React Navigation, Stripe.
+
+---
+
+Employer:
+Making Science
+
+employer URL:
+@https://www.makingscience.com/
+
+wrok period from - to
+2021 - 2021
+
+Project description max 2100 words.
+A tipping application simplifying how users leave and manage tips for services, with secure auth, profile management, and multiple payment provider integrations to ensure continuity during outages. I contributed as a junior developer focused on reliable flows and code quality.
+
+Responsibilities kax 4000 words
+- Built and stabilized authentication and profile features.
+- Integrated multiple payment providers and ensured smooth switching.
+- Maintained code quality through reviews and adherence to standards.
+
+client name
+Tipper (Tip Transaction App)
+
+client description
+A streamlined tipping app supporting various payment methods and resilient provider switching. Tech: React Native, Redux, TypeScript, ES6, Firebase, React Navigation.
+
+---
+
+Employer:
+Making Science
+
+employer URL:
+@https://www.makingscience.com/
+
+wrok period from - to
+2023 - 2024
+
+Project description max 2100 words.
+Gauss and GaussAI are award‑winning AI analytics and marketing acceleration solutions. I worked on the GaussAI web extension that connects online shops to the GaussAI console to power automation (e.g., content generation, SEO, and analytics). Under tight deadlines, I built modules with a strong focus on UX, data handling, and secure authorization.
+
+Responsibilities kax 4000 words
+- Developed React modules with Storybook, MUI, and TypeScript.
+- Implemented data fetching with React Query and Google Auth integration.
+- Built sandbox environments and handled large‑data UI concerns.
+
+client name
+Gauss / GaussAI (Generative AI / React)
+
+client description
+Enterprise AI tools for e‑commerce and marketing analytics, recognized with Google Marketing awards. Tech: React, Storybook, React Query, Google Auth, TypeScript, MUI. The extension enables shop connection to GaussAI for AI‑assisted workflows.
+
+---
+
+Employer:
+Making Science
+
+employer URL:
+@https://www.makingscience.com/
+
+wrok period from - to
+2024 - 2024
+
+Project description max 2100 words.
+Official mobile application for Credo Bank with secure development practices and engaging features like a news feed and Instagram‑style stories. I implemented features end‑to‑end, ensuring compliance with banking standards and performance best practices.
+
+Responsibilities kax 4000 words
+- Built stories, news feed, and animated interactions.
+- Collaborated on GraphQL schemas, caching, and pagination strategies.
+- Ensured security, compliance, and high‑quality UX.
+
+client name
+Credo Bank (Banking App)
+
+client description
+A secure, feature‑rich mobile banking app for Credo’s customers. Tech: React Native, React Query, GraphQL, animations, and secure development practices.
+
+---
+
+Employer:
+Making Science
+
+employer URL:
+@https://www.makingscience.com/
+
+wrok period from - to
+2024 - 2025
+
+Project description max 2100 words.
+An operational app for flight crews designed for low‑powered POS devices and various iOS hardware, operating under intermittent connectivity. The system supports shift initialization, flight shop management, crew/inventory handling, payments, and native integrations. I contributed across features, synchronization, and performance.
+
+Responsibilities kax 4000 words
+- Implemented offline‑first flows and background sync; improved reliability under poor networks.
+- Added inventory, crew, payment, and native feature integrations on both iOS/Android.
+- Contributed to CI/CD, automated testing tools, and large‑scale team collaboration with Jira.
+
+client name
+Epos / Immfly (App for Flight Crew)
+
+client description
+A robust, offline‑capable flight crew app for in‑flight operations across constrained devices. Tech: React Native, native code (iOS/Android), CI/CD, automated testing tools, Jira.
+
+---
+
+Additional Experience
+
+Skillwill — React Native Lecturer (Jan 2023 – Feb 2023)
+Created and delivered lectures and materials to help students become competitive developers, covering React Native fundamentals, tooling, and best practices.
+
+Education
+Tbilisi State University — Computer Science Bachelor’s Degree
+
+Certificates
+Harvard courses (web and mobile development), IT Academy Step, BitCamp
+
+Hackathons
+NASA Tbilisi Hackathon; Sweeft Internal Hackathon

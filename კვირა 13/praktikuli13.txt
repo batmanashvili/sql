@@ -1,0 +1,113 @@
+პრაქტიკული სამუშაო 14 
+
+თემა: ინდექსები 
+
+ 
+
+ 
+
+დავალება (ნიმუში) 
+
+ 
+
+ Shemkveti ცხრილის gvari სვეტისთვის შექმენით არაკლასტერული ინდექსი. სვეტის მონაცემები უნდა დალაგდეს ზრდადობით.  
+
+ 
+
+USE Shekveta;  
+
+CREATE NONCLUSTERED INDEX Index_Gvari1  
+
+ON [shemkveti] ([gvari]); 
+
+ 
+
+ 
+
+2. Personali ცხრილის tarigi_dabadebis სვეტისთვის შევქმნათ უნიკალური ინდექსი. სვეტის მონაცემები უნდა დალაგდეს კლებადობით.  
+
+ 
+
+USE Shekveta 
+
+GO 
+
+CREATE UNIQUE INDEX Index_tarigi_dabadebis 
+
+ON [Personali] ([tarigi_dabadebis]); 
+
+ 
+
+ 
+
+3. Personali ცხრილის email სვეტისთვის შევქმნათ უნიკალური ინდექსი.  
+
+ 
+
+USE Shekveta;  
+
+CREATE UNIQUE INDEX Index__mail 
+
+ON [Personali] ([email]); 
+
+ 
+
+ 
+
+ 
+
+  
+
+ 
+
+4. Personali ცხრილის mobiluri სვეტისთვის შევქმნათ უნიკალური არაკლასტერული ინდექსი.  
+
+ 
+
+CREATE UNIQUE NONCLUSTERED INDEX Index_mobiluri  
+
+ON [Personali] ([mobiluri]);  
+
+ 
+
+5. Personali ცხრილის ganyofileba სვეტისთვის შევქმნათ არაკლასტერული ინდექსი.  
+
+ 
+
+CREATE NONCLUSTERED INDEX Index_Ganyofileba  
+
+ON Personali(ganyofileba)  
+
+ 
+
+6. Personali ცხრილის firmis_dasaxeleba სვეტისთვის შევქმნათ  არაკლასტერული ინდექსი  
+
+CREATE NONCLUSTERED INDEX Index_firmis_dasaxeleba  
+
+ON [Shemkveti] ([firmis_dasaxeleba]); 
+
+ 
+
+ 
+
+7.  Shemkveti ცხრილის warmomadgeneli სვეტისთვის შევქმნათ არაკლასტერული ინდექსი. 
+
+ 
+
+CREATE NONCLUSTERED INDEX Index_warmomadgeneli  
+
+ON [Shemkveti] ([gvari_warmomadgenlis]); 
+
+ 
+
+ 
+
+ 
+
+ 
+
+დამოუკიდებელი სამუშაო 
+
+ 
+
+მოცემული ნიმუშების მსგავსად მოიფიქრეთ რამოდენიმე ამოცანა ინდექსის შექმნაზე. 
