@@ -193,3 +193,47 @@ clear_button.bind("<Button-1>", clear_list)
 
 root.mainloop()
 ```
+
+# დავალება N5
+
+```python
+
+"""
+5. (6 ქულა) შეადგინეთ გრაფიკული ინტერფეისის მქონე პროგრამა, რომელიც ითვალისწი-
+ნებს ტექსტური ველიდან მთელრიცხვა მნიშვნელობის შეტანას. მომხმარებლის მიერ
+არარიცხვითი მნიშვნელობის შეტანის შემთხვევაში პროგრამამ უნდა გამოიტანოს
+შეცდომის ტიპის გამაფრთხილებელი დიალოგური ფანჯარა, რომელშიც ასახული იქნება
+შეცდომის ტიპი და შეცდომის გასწორების შემდეგ პროგრამამ ჭდეზე (Label) უნდა ასახოს
+შეტანილი რიცხვის ბოლო ციფრი.
+"""
+
+import tkinter as tk
+from tkinter import messagebox
+
+root = tk.Tk()
+root.title("რიცხვის ბოლო ციფრი")
+root.geometry("400x300")
+
+label = tk.Label(root, text="შეიყვანეთ მთელი რიცხვი:")
+label.pack(pady=20)
+
+entry = tk.Entry(root, width=30)
+entry.pack(pady=10)
+
+result_label = tk.Label(root, text="")
+result_label.pack(pady=20)
+
+def process_number():
+    try:
+        number = int(entry.get())
+        last_digit = abs(number) % 10
+        result_label.config(text=f"ბოლო ციფრი: {last_digit}")
+    except ValueError as e:
+        messagebox.showerror("შეცდომა", f"შეცდომის ტიპი:\n\nგთხოვთ შეიყვანოთ მთელი რიცხვი!")
+        result_label.config(text="")
+
+button = tk.Button(root, text="გამოთვალე", command=process_number, width=20)
+button.pack(pady=10)
+
+root.mainloop()
+```
